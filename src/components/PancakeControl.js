@@ -93,7 +93,7 @@ export class PancakeControl extends Component {
                         <div className="form-group col-md-12">
                             <div className="input-group input-group-sm col-3">
                                 <input type="number" className="form-control" disabled={sortingStarted}
-                                       name="timeInterval" id="timeInterval"
+                                       name="timeInterval" id="timeInterval" min={1}
                                        placeholder="Time*"
                                        required value={timeInterval} onChange={this.handleInputChange}/>
                                 <div className="input-group-append">
@@ -107,7 +107,7 @@ export class PancakeControl extends Component {
                             />
                             <div className="input-group input-group-sm col-6">
                                 <input type="number" className="form-control" disabled={sortingStarted}
-                                       name="pancake_qty" id="pancake_qty"
+                                       name="pancake_qty" id="pancake_qty" min={2} max={50}
                                        placeholder="How many pancakes [from 2 to 50]*"
                                        required value={pancake_qty} onChange={this.handleInputChange}/>
                             </div>
