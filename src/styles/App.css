@@ -1,0 +1,91 @@
+/*****Form **********/
+.custom-form{
+    padding:10px 0;
+}
+.custom-form button{
+    margin: 0 .15rem;
+}
+/*****Form **********/
+
+.padding-10-0{
+    padding: 10px 0px;
+}
+
+.hide-overflow {
+    overflow: hidden
+}
+
+.user-dashboard {
+    padding-right: 5px;
+    margin: auto 0px;
+    vertical-align: middle;
+}
+
+/*****Toast **********/
+.toast {
+    visibility: hidden;
+    align-items: center;
+    border-radius: 25px;
+    display: flex;
+    min-height: 50px;
+    max-height: 50px;
+    justify-content: space-between;
+    left:15%;
+    padding: 0 20px;
+    position: fixed;
+    transform: translateX(-50%) translateY(150%);
+    transition: transform .35s ease;
+    z-index: 9;
+}
+.toast.visible{
+    visibility: visible;
+}
+
+.toast.visible.success {
+    background-color: #16a085;
+}
+
+.toast.danger {
+    background-color: #c0392b;
+}
+.toast.warning {
+    background-color: #F38211;
+}
+.toast figure {
+    height: 35px;
+    margin: 0 15px 0 0;
+    opacity: .9;
+    width: 35px;
+}
+.toast figure img {
+    height: 100%;
+    width: 100%;
+}
+.toast p {
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    white-space: nowrap;
+    margin-bottom: 0px;
+}
+/*****Toast **********/
+
+/*****Pancake **********/
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    width: 800px;
+}
+
+li {
+    border-radius: 10px;
+    margin: 0 auto 2px auto;
+    width: 300px;
+    height: 30px;
+}
+/*****Pancake **********/
